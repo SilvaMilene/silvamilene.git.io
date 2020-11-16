@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  a{
+    text-decoration: none;
+  }
+  i{
+    font-size: 30px;
+    color: #000000;
+  }
+  body{
+    color: black;
+    background-color: #f0f0f5;
+  }
+  header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 30px; */
+    background-color: #000000;
+    align-items: center;
+    position: fixed;
+    top: 0;
+  }
+  /* header .logo{
+    margin-left: 16px;
+  } */
+  header .logo{
+    padding: 10px;
+  }
+  header .logo img{
+    border-radius: 360px;
+    width: 80px;
+    /* margin: 8px 16px 8px 16px; */
+  }
+  nav{
+    margin-right: 16px;
+  }
+  nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+  }
+  nav ul li:first-child {
+    margin: 0;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+  }
+  section #sobre, .projetos, .contato{
+    padding: 30% 0 30% 0;
+  }
+  section{
+    width: 100%;
+    background-color: #6964E2;
+  }
+  section .apresentationBox{
+    padding: 0 15%;
+  }
+  
+  section .sobre h2{
+    text-align: center;
+   }
+  section .sobre p, .projetos p{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    text-align: center;
+  }
+  /* section .projetos{
+    background-color: #6c63ff;
+  } */
+  section .projetos i, .contato i{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;          
+    padding: 30px;
+    /* background-color: white;
+    border-radius: 180px; */
+  }
+  /* section .contato{
+    padding: 360px 0 360px 0;
+  } */
+  footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 30px; */
+    background-image: linear-gradient(to right,#f8a4d8, #6c63ff);
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+  }
+  footer p{
+    color: white;
+    font-size: 12px;
+  }
+  footer .componentes i{
+    color: white;
+    font-size: 20px;
+    display: inline;
+    justify-content: space-between;
+    padding: 16px 36px 16px 8px;
+  
+  }

@@ -1,0 +1,13 @@
+@media (max-width: 2000px){
+  section .apresentationBox{
+    padding: 0 25%;
+  }
+}
+@media (max-width: 900px){
+  section .apresentationBox{
+    padding: 0 15%;
+  }
+  section .apresentationBox h2 {
+    font-size: 30px;
+  }
+}
