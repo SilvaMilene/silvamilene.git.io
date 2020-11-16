@@ -15,7 +15,8 @@
   }
   body{
     color: black;
-    background-color: #f0f0f5;
+    align-items: center;
+    /* background-color: #f0f0f5; */
   }
   header{
     width: 100%;
@@ -59,7 +60,7 @@
   }
   section{
     width: 100%;
-    background-color: #6964E2;
+    background-color: #f0f0f5;
   }
   section .apresentationBox{
     padding: 0 15%;
@@ -67,6 +68,7 @@
   
   section .sobre h2{
     text-align: center;
+    
    }
   section .sobre p, .projetos p{
     font-size: 30px;
@@ -74,6 +76,7 @@
     line-height: 36px;
     text-align: center;
   }
+ 
   /* section .projetos{
     background-color: #6c63ff;
   } */
